@@ -9,7 +9,7 @@ import React, {
 /** Contextの作成 */
 const AuthContext = createContext({
   isAuthenticated: false,
-  setAuthState: (value: boolean) => {},
+  setAuthState: (_: boolean) => {},
 });
 
 /** localStorageのキー */
